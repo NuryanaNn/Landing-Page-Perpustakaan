@@ -1,0 +1,59 @@
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+/* Search Bar */
+.input-group{
+    margin-left: 10px;
+    margin-top: -100px;
+}
+
+/* Bagian 2 */
+.bagian2{
+    background-image: url(img/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 150px;
+}
+
+.informasi{
+    margin-top: 300px;
+}
+
+/* Bagian 2 Gambar */
+.bagian2 ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.bagian2 img{
+    width: 100px;
+    margin-left: -40px;
+    float: left;
+}
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .jumbotron{
+        background-image: url(img/jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        margin-top: -60px;
+        text-align: left;
+    }
+
+    /* Search Bar */
+    .input-group{
+        margin-left: 500px;
+}
+}
